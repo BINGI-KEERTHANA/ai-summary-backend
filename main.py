@@ -2,7 +2,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
-from .ai import generate_summary
+from ai import generate_summary
 
 # THIS LINE MUST BE EXACTLY "app"
 app = FastAPI(title="LexiHub AI Backend")
